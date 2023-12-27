@@ -18,7 +18,7 @@ body{
     z-index: 100;
     width: 100%;
     padding: 20px 30px;
-    background-color: green;
+    background-color: transparent;
 }
 .logo{
     position: relative;
@@ -66,23 +66,23 @@ body{
     transform: translateY(-10%);
     border-radius: 20px;
     width: 35%;
-    border: 2px solid black;
+    border: 2px solid transparent;
     outline: none;   
 }
 .search-button{
     position: absolute;
     right: 45%;
-    top: 26%;
+    top: 26.5%;
     width: 7%;
     border-radius: 20px;
     background: white;
     padding: 5px;
-    border: 2px solid black;
+    border: 2px solid transparent;
 }
 .content{
     position: absolute;
     width: 100%;
-    top: 11%;
+    top: 16%;
     text-align: center;
     transform: translateY(-40%)
     
@@ -93,8 +93,8 @@ body{
     border: 2px solid black;
     width: 900px;
     height: 344px;
-    left: 20%;
-    top: 15%;
+    left: 16%;
+    top: 20%;
     background: url("cannon.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ body{
     }
     .search-button{
         position: absolute;
-        top: 21%;
+        top: 22.5%;
         width: 15%;
         left: 70%;
     }
