@@ -130,7 +130,8 @@ body{
 
 @media screen and (max-width: 768px) {
     .nav {
-        display: none;
+        display:none;
+        position: fixed;
         flex-direction: column;
         position: absolute;
         text-align: center;
