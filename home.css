@@ -18,7 +18,7 @@ body{
     z-index: 100;
     width: 100%;
     padding: 20px 30px;
-    background-color: transparent;
+    background-color: white;
 }
 .logo{
     position: relative;
